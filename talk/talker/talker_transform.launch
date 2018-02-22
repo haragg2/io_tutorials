@@ -1,0 +1,5 @@
+<launch>
+	<node name="talker_transform" pkg="talker" type="talker.py" output="screen">
+	<remap from="telemetry" to="chatter"/>
+	</node>
+</launch>
