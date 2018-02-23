@@ -1,3 +1,3 @@
 <launch>
-	<node name="talker" pkg="talker" type="talker.py" output="none"/>
+	<node name="talker" pkg="talker" type="talker.py" output="log"/>
 </launch>
