@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="talker" type="talker.py" name="talker_node" />
+  <test test-name="talker_test" pkg="talker" type="test_talk.py" />
+</launch>
